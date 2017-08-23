@@ -1,5 +1,7 @@
 use_frameworks!
 
+platform :ios, '9.0'
+
 target 'ReactiveEureka_Example' do
   pod 'ReactiveEureka', :path => '../'
 
@@ -7,8 +9,8 @@ target 'ReactiveEureka_Example' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
-  pod 'FBSnapshotTestCase'
-  pod 'Nimble-Snapshots'
+  	pod 'Nimble', '~> 5.1.1'
+  	pod 'FBSnapshotTestCase'
+  	pod 'Nimble-Snapshots'
   end
 end

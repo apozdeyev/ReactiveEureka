@@ -1,0 +1,49 @@
+PODS:
+  - Eureka (3.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (5.1.1)
+  - Nimble-Snapshots (4.4.0):
+    - Nimble-Snapshots/Core (= 4.4.0)
+  - Nimble-Snapshots/Core (4.4.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble
+    - Quick
+  - Quick (1.0.0)
+  - ReactiveCocoa (6.0.1):
+    - ReactiveSwift (~> 2.0)
+  - ReactiveEureka (0.1.0):
+    - Eureka (~> 3)
+    - ReactiveCocoa (~> 6)
+  - ReactiveSwift (2.0.1):
+    - Result (~> 3.2)
+  - Result (3.2.3)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble (~> 5.1.1)
+  - Nimble-Snapshots
+  - Quick (~> 1.0.0)
+  - ReactiveEureka (from `../`)
+
+EXTERNAL SOURCES:
+  ReactiveEureka:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Eureka: d6725c38d0dcdceaa331d1468f75e76315715ae0
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  ReactiveCocoa: cf6595131c832c468fe3f84a2d7f74ed68eb3058
+  ReactiveEureka: a28f67f637dfd2066c50ade1e376dea64019b886
+  ReactiveSwift: 60a29ff35988a964fd2bb759755cb6594de523fc
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+
+PODFILE CHECKSUM: b5f5271dac72e57be57202c0b3c1f25780a2f96e
+
+COCOAPODS: 1.2.1

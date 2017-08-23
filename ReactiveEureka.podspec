@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ReactiveEureka'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ReactiveEureka.'
+  s.summary          = 'Reactive extension for xmartlabs/Eureka.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Reactive extension for xmartlabs/Eureka.
                        DESC
 
-  s.homepage         = 'https://github.com/anatoliy.pozdeyev@gmail.com/ReactiveEureka'
+  s.homepage         = 'https://github.com/apozdeyev/ReactiveEureka'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'anatoliy.pozdeyev@gmail.com' => 'anatoliy.pozdeyev@gmail.com' }
-  s.source           = { :git => 'https://github.com/anatoliy.pozdeyev@gmail.com/ReactiveEureka.git', :tag => s.version.to_s }
+  s.author           = { 'Anatoliy Pozdeyev' => 'anatoliy.pozdeyev@gmail.com' }
+  s.source           = { :git => "https://github.com/apozdeyev/ReactiveEureka.git", :branch => "develop" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ReactiveEureka/Classes/**/*'
+  s.source_files = 'ReactiveEureka/Classes/**/*.{swift,h,m}'
   
   # s.resource_bundles = {
   #   'ReactiveEureka' => ['ReactiveEureka/Assets/*.png']
@@ -39,4 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency "ReactiveCocoa", "~> 6"
+  s.dependency "Eureka", "~> 3"
+
 end
