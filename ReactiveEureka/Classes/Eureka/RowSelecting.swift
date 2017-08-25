@@ -19,6 +19,7 @@ public protocol RowSelecting: RowType {
 	func onCellSelection(_ callback: @escaping ((_ cell: Cell, _ row: Self) -> Void)) -> Self
 	
 	var disabled: Condition? { get set }
+	func evaluateDisabled()
 }
 
 
@@ -74,6 +75,7 @@ extension Reactive where Base: RowSelecting {
 	public var isEnabled: BindingTarget<Bool> {
 		return makeBindingTarget {
 			$0.disabled = Condition(booleanLiteral: !$1)
+			$0.evaluateDisabled()
 		}
 	}
 }

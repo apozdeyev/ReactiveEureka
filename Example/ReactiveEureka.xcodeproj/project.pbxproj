@@ -12,7 +12,9 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		F28894771F4FE27800E6A3EB /* RowActionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28894731F4FDBB300E6A3EB /* RowActionsSpec.swift */; };
+		F28894781F4FE27D00E6A3EB /* RowSignalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28894741F4FDBB300E6A3EB /* RowSignalSpec.swift */; };
+		F28894791F4FE28100E6A3EB /* RowBindingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28894711F4FDB8700E6A3EB /* RowBindingSpec.swift */; };
 		FB4CA2F23443AA1AB62AEB6C /* Pods_ReactiveEureka_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A983F747C040129B04A82F3 /* Pods_ReactiveEureka_Example.framework */; };
 		FD3BCF36B5FD7C819D1C3BD7 /* Pods_ReactiveEureka_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8971A1C80FEA1697DBFA3A /* Pods_ReactiveEureka_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -40,11 +42,17 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ReactiveEureka_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveEureka_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		659E6F221DB8F96F66782784 /* Pods-ReactiveEureka_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveEureka_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveEureka_Example/Pods-ReactiveEureka_Example.release.xcconfig"; sourceTree = "<group>"; };
 		74967D9139CE6B738B419B5A /* Pods-ReactiveEureka_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveEureka_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveEureka_Tests/Pods-ReactiveEureka_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9002B685D4C2BBFCDF714467 /* ReactiveEureka.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReactiveEureka.podspec; path = ../ReactiveEureka.podspec; sourceTree = "<group>"; };
 		BD9498BF8B9B1BE82B1A619A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F28894691F4F332500E6A3EB /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/Eureka/Eureka.framework"; sourceTree = "<group>"; };
+		F288946A1F4F332500E6A3EB /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		F288946B1F4F332500E6A3EB /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework"; sourceTree = "<group>"; };
+		F288946C1F4F332500E6A3EB /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/Result/Result.framework"; sourceTree = "<group>"; };
+		F28894711F4FDB8700E6A3EB /* RowBindingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowBindingSpec.swift; sourceTree = "<group>"; };
+		F28894731F4FDBB300E6A3EB /* RowActionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowActionsSpec.swift; sourceTree = "<group>"; };
+		F28894741F4FDBB300E6A3EB /* RowSignalSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSignalSpec.swift; sourceTree = "<group>"; };
 		FC5061242597BB7ED6E51968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FE8971A1C80FEA1697DBFA3A /* Pods_ReactiveEureka_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveEureka_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,7 +123,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				F28894731F4FDBB300E6A3EB /* RowActionsSpec.swift */,
+				F28894741F4FDBB300E6A3EB /* RowSignalSpec.swift */,
+				F28894711F4FDB8700E6A3EB /* RowBindingSpec.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -153,6 +163,10 @@
 		C423C7E9EB78A30AFE7E2351 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F28894691F4F332500E6A3EB /* Eureka.framework */,
+				F288946A1F4F332500E6A3EB /* ReactiveCocoa.framework */,
+				F288946B1F4F332500E6A3EB /* ReactiveSwift.framework */,
+				F288946C1F4F332500E6A3EB /* Result.framework */,
 				3A983F747C040129B04A82F3 /* Pods_ReactiveEureka_Example.framework */,
 				FE8971A1C80FEA1697DBFA3A /* Pods_ReactiveEureka_Tests.framework */,
 			);
@@ -370,7 +384,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				F28894771F4FE27800E6A3EB /* RowActionsSpec.swift in Sources */,
+				F28894791F4FE28100E6A3EB /* RowBindingSpec.swift in Sources */,
+				F28894781F4FE27D00E6A3EB /* RowSignalSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +512,7 @@
 			baseConfigurationReference = 44FB3CC1B3DC93C3A910E070 /* Pods-ReactiveEureka_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = ReactiveEureka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -525,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08177A15AAE673765CAB5D1B /* Pods-ReactiveEureka_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +556,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveEureka_Example.app/ReactiveEureka_Example";
 			};
 			name = Debug;
 		};
@@ -545,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74967D9139CE6B738B419B5A /* Pods-ReactiveEureka_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -554,6 +574,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveEureka_Example.app/ReactiveEureka_Example";
 			};
 			name = Release;
 		};
