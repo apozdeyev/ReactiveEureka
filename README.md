@@ -48,6 +48,7 @@ row.reactive.selected of type CocoaAction allows to hook [ReactiveSwift action](
 
 ### Signal
 row.reactive.values of type ReactiveSwift.Signal<Row.Value?, NoError>, it is series of row value changing events over time that can be observed. For more details please check [ReactiveSwift documentation](https://github.com/ReactiveCocoa/ReactiveSwift/blob/master/Documentation/FrameworkOverview.md#signals) 
+
 **Note:** Changing events are not emitted when row's value is set via property, i.e. row.value = someValue.
 
 **Note:** Currently only single signal is supported, i.e. requesting second signal stops events emitting by first one.

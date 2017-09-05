@@ -3,7 +3,6 @@
 //  EurekaPrototype
 //
 //  Created by Anatoliy Pozdeyev on 13/08/2017.
-//  Copyright © 2017 VitaSw. All rights reserved.
 //
 
 import ReactiveSwift

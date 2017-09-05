@@ -14,6 +14,11 @@ import ReactiveEureka
 import Result
 
 class ViewController: FormViewController {
+	struct RowTag {
+		static let TapsCount = "TapsCount"
+		static let LastTap = "LastTap"
+		static let Button = "Button"
+	}
 	
 	fileprivate let tapsCount = MutableProperty<Int>(0)
 	fileprivate let lastTapDate = MutableProperty<Date?>(nil)
@@ -26,22 +31,21 @@ class ViewController: FormViewController {
 
 	fileprivate func createForm() {
 		form +++ Section("Info")
-			<<< TextRow() {
+			<<< TextRow(RowTag.TapsCount) {
 				$0.title = "Taps Count"
 				$0.reactive.value <~ self.tapsCount.map { String($0) }
 			}
-			<<< TimeRow() {
+			<<< TimeRow(RowTag.LastTap) {
 				$0.title = "Last tap"
 				$0.dateFormatter?.timeStyle = .long
 				$0.reactive.value <~ self.lastTapDate
 			}
 			+++ Section("Actions")
-			<<< ButtonRow(){
+			<<< ButtonRow(RowTag.Button){
 				$0.title = "Tap"
 				$0.reactive.selected = CocoaAction(self.buttonaTapAction())
 		}
 	}
-	
 	
 	fileprivate func buttonaTapAction() -> Action<Void, Void, NoError> {
 		return Action<Void, Void, NoError> {
@@ -55,6 +59,5 @@ class ViewController: FormViewController {
 		tapsCount.value += 1
 		lastTapDate.value = Date()
 	}
-	
 }
 
