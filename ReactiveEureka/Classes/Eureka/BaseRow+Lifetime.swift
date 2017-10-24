@@ -53,7 +53,7 @@ extension Reactive where Base: BaseRowType {
 			let objcClass: AnyClass = (base as AnyObject).objcClass
 			let objcClassAssociations = Associations(objcClass as AnyObject)
 			
-			let deallocSelector = sel_registerName("dealloc")!
+			let deallocSelector = sel_registerName("dealloc")
 			
 			// Swizzle `-dealloc` so that the lifetime token is released at the
 			// beginning of the deallocation chain, and only after the KVO `-dealloc`.
@@ -78,8 +78,8 @@ extension Reactive where Base: BaseRowType {
 						if let existingImpl = existingImpl {
 							impl = existingImpl
 						} else {
-							let superclass: AnyClass = class_getSuperclass(objcClass)
-							impl = class_getMethodImplementation(superclass, deallocSelector)
+							let superclass: AnyClass = class_getSuperclass(objcClass)!
+							impl = class_getMethodImplementation(superclass, deallocSelector)!
 						}
 						
 						typealias Impl = @convention(c) (UnsafeRawPointer, Selector) -> Void
@@ -90,7 +90,7 @@ extension Reactive where Base: BaseRowType {
 					
 					if !class_addMethod(objcClass, deallocSelector, newImpl, "v@:") {
 						// The class has an existing `dealloc`. Preserve that as `existingImpl`.
-						let deallocMethod = class_getInstanceMethod(objcClass, deallocSelector)
+						let deallocMethod = class_getInstanceMethod(objcClass, deallocSelector)!
 						
 						// Store the existing implementation to `existingImpl` to ensure it is
 						// available before our version is swapped in.

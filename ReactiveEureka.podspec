@@ -41,6 +41,6 @@ Reactive extension for xmartlabs/Eureka.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.dependency "ReactiveCocoa", "~> 6"
-  s.dependency "Eureka", "~> 3"
+  s.dependency "Eureka", "~> 4"
 
 end
