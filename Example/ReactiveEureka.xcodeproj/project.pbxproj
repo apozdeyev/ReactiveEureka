@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36694D3668CDC47947BB41D7 /* FormBindingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36694C8D12B32D266C7F90A2 /* FormBindingVC.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* TapsCountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* TapsCountVC.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36694C8D12B32D266C7F90A2 /* FormBindingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBindingVC.swift; sourceTree = "<group>"; };
 		3AB14A41BC316D68AECBA78A /* Pods_ReactiveEureka_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveEureka_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C21E026F181DAB0B546E04C /* Pods-ReactiveEureka_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveEureka_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveEureka_Tests/Pods-ReactiveEureka_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ReactiveEureka_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveEureka_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				36694C8D12B32D266C7F90A2 /* FormBindingVC.swift */,
 			);
 			name = "Example for ReactiveEureka";
 			path = ReactiveEureka;
@@ -405,6 +408,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* TapsCountVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				36694D3668CDC47947BB41D7 /* FormBindingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

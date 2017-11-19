@@ -1,8 +1,8 @@
 //
-//  BaseRow+Lifetime.swift
-//  EurekaPrototype
+//  Form+Lifetime.swift
+//  ReactiveEureka
 //
-//  Created by anatoliy on 11/08/2017.
+//  Created by Anatoliy Pozdeyev on 19/11/2017.
 //
 
 import Foundation
@@ -18,32 +18,29 @@ fileprivate let lifetimeKey = AssociationKey<Lifetime?>(default: nil)
 /// Holds the `Lifetime.Token` of the object.
 fileprivate let lifetimeTokenKey = AssociationKey<Lifetime.Token?>(default: nil)
 
-// TODO: move to separate file.
-internal func lifetime(of object: AnyObject) -> Lifetime {
-	// describe why we use here BaseRow instead of BaseRowType. BaseRowType can not be extending by ReactiveExtensionsProvider. 
-	if let object = object as? BaseRow {
-		return object.reactive.lifetime
-	} else if let object = object as? Form {
-		return object.reactive.lifetime
-	}
-	
-	return synchronized(object) {
-		let associations = Associations(object)
-		
-		if let lifetime = associations.value(forKey: lifetimeKey) {
-			return lifetime
-		}
-		
-		let (lifetime, token) = Lifetime.make()
-		
-		associations.setValue(token, forKey: lifetimeTokenKey)
-		associations.setValue(lifetime, forKey: lifetimeKey)
-		
-		return lifetime
-	}
-}
+// TODO:remove
+//internal func lifetime(of object: AnyObject) -> Lifetime {
+//	if let object = object as? Form {
+//		return object.reactive.lifetime
+//	}
+//
+//	return synchronized(object) {
+//		let associations = Associations(object)
+//
+//		if let lifetime = associations.value(forKey: lifetimeKey) {
+//			return lifetime
+//		}
+//
+//		let (lifetime, token) = Lifetime.make()
+//
+//		associations.setValue(token, forKey: lifetimeTokenKey)
+//		associations.setValue(lifetime, forKey: lifetimeKey)
+//
+//		return lifetime
+//	}
+//}
 
-extension Reactive where Base: BaseRowType {
+extension Reactive where Base: Form {
 	/// Returns a lifetime that ends when the object is deallocated.
 	@nonobjc public var lifetime: Lifetime {
 		return base.synchronized {
