@@ -9,19 +9,19 @@ import Result
 @testable import ReactiveEureka_Example
 
 class RowSignalSpec: QuickSpec {
-	var vc: ViewController!
+	var vc: TapsCountVC!
 	
     override func spec() {
 		beforeEach {
-			let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: ViewController.self))
-			self.vc = storyboard.instantiateInitialViewController() as! ViewController
+			let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: TapsCountVC.self))
+			self.vc = storyboard.instantiateInitialViewController() as! TapsCountVC
 			self.vc.loadViewIfNeeded()
 		}
 		
 		describe("Row value signal") {
 			it("Row value changing events are emitted when the user text in row's cell is chamged") {
-				let tapsCountRow = self.vc.form.rowBy(tag: ViewController.RowTag.TapsCount) as! TextRow
-				let buttonRow = self.vc.form.rowBy(tag: ViewController.RowTag.Button) as! ButtonRow
+				let tapsCountRow = self.vc.form.rowBy(tag: TapsCountVC.RowTag.TapsCount) as! TextRow
+				let buttonRow = self.vc.form.rowBy(tag: TapsCountVC.RowTag.Button) as! ButtonRow
 				let tapsCount = MutableProperty<Int>(0)
 				
 				tapsCount <~ tapsCountRow.reactive.values.map { Int($0!)! }
