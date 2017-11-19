@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TapsCountVC.swift
 //  ReactiveEureka
 //
 //  Created by anatoliy.pozdeyev@gmail.com on 08/18/2017.
