@@ -7,10 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F27229911FCF0289005A4973 /* ReactiveRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229781FCF0288005A4973 /* ReactiveRows.swift */; };
+		F27229921FCF0289005A4973 /* RowSelecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297A1FCF0288005A4973 /* RowSelecting.swift */; };
+		F27229931FCF0289005A4973 /* BaseRow+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297B1FCF0288005A4973 /* BaseRow+Synchronizing.swift */; };
+		F27229941FCF0289005A4973 /* Form+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297C1FCF0288005A4973 /* Form+Lifetime.swift */; };
+		F27229951FCF0289005A4973 /* BaseRow+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297D1FCF0288005A4973 /* BaseRow+Lifetime.swift */; };
+		F27229961FCF0289005A4973 /* BaseRow+ReactiveExtensionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297E1FCF0288005A4973 /* BaseRow+ReactiveExtensionsProvider.swift */; };
+		F27229971FCF0289005A4973 /* BaseRow+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297F1FCF0288005A4973 /* BaseRow+BindingTarget.swift */; };
+		F27229981FCF0289005A4973 /* BaseRow+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229801FCF0288005A4973 /* BaseRow+Association.swift */; };
+		F27229991FCF0289005A4973 /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229811FCF0288005A4973 /* RowType.swift */; };
+		F272299A1FCF0289005A4973 /* Form+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229821FCF0288005A4973 /* Form+BindingTarget.swift */; };
+		F272299B1FCF0289005A4973 /* RowChanging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229831FCF0288005A4973 /* RowChanging.swift */; };
+		F272299C1FCF0289005A4973 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229841FCF0288005A4973 /* Form.swift */; };
+		F272299D1FCF0289005A4973 /* Form+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229851FCF0288005A4973 /* Form+Association.swift */; };
+		F272299E1FCF0289005A4973 /* Form+ReactiveExtensionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229861FCF0288005A4973 /* Form+ReactiveExtensionsProvider.swift */; };
+		F272299F1FCF0289005A4973 /* Form+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229871FCF0288005A4973 /* Form+Synchronizing.swift */; };
+		F27229A21FCF0289005A4973 /* ObjCRuntimeAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */; };
+		F27229A31FCF0289005A4973 /* NSObject+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */; };
+		F27229A41FCF0289005A4973 /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298D1FCF0288005A4973 /* ObjC+Selector.swift */; };
+		F27229A51FCF0289005A4973 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */; };
+		F27229A61FCF0289005A4973 /* ObjC+Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298F1FCF0288005A4973 /* ObjC+Messages.swift */; };
 		F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F27229781FCF0288005A4973 /* ReactiveRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveRows.swift; sourceTree = "<group>"; };
+		F272297A1FCF0288005A4973 /* RowSelecting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSelecting.swift; sourceTree = "<group>"; };
+		F272297B1FCF0288005A4973 /* BaseRow+Synchronizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+Synchronizing.swift"; sourceTree = "<group>"; };
+		F272297C1FCF0288005A4973 /* Form+Lifetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+Lifetime.swift"; sourceTree = "<group>"; };
+		F272297D1FCF0288005A4973 /* BaseRow+Lifetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+Lifetime.swift"; sourceTree = "<group>"; };
+		F272297E1FCF0288005A4973 /* BaseRow+ReactiveExtensionsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+ReactiveExtensionsProvider.swift"; sourceTree = "<group>"; };
+		F272297F1FCF0288005A4973 /* BaseRow+BindingTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+BindingTarget.swift"; sourceTree = "<group>"; };
+		F27229801FCF0288005A4973 /* BaseRow+Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+Association.swift"; sourceTree = "<group>"; };
+		F27229811FCF0288005A4973 /* RowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowType.swift; sourceTree = "<group>"; };
+		F27229821FCF0288005A4973 /* Form+BindingTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+BindingTarget.swift"; sourceTree = "<group>"; };
+		F27229831FCF0288005A4973 /* RowChanging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowChanging.swift; sourceTree = "<group>"; };
+		F27229841FCF0288005A4973 /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		F27229851FCF0288005A4973 /* Form+Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+Association.swift"; sourceTree = "<group>"; };
+		F27229861FCF0288005A4973 /* Form+ReactiveExtensionsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+ReactiveExtensionsProvider.swift"; sourceTree = "<group>"; };
+		F27229871FCF0288005A4973 /* Form+Synchronizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+Synchronizing.swift"; sourceTree = "<group>"; };
+		F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCRuntimeAliases.m; sourceTree = "<group>"; };
+		F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Synchronizing.swift"; sourceTree = "<group>"; };
+		F272298D1FCF0288005A4973 /* ObjC+Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Selector.swift"; sourceTree = "<group>"; };
+		F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCRuntimeAliases.h; sourceTree = "<group>"; };
+		F272298F1FCF0288005A4973 /* ObjC+Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Messages.swift"; sourceTree = "<group>"; };
 		F2DFC85A1FAF3C9E00BB4491 /* ReactiveEureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveEureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveEureka.h; sourceTree = SOURCE_ROOT; };
 		F2DFC8661FAF3CF400BB4491 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -27,6 +67,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F27229761FCF0288005A4973 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F27229771FCF0288005A4973 /* ReactiveRows */,
+				F27229791FCF0288005A4973 /* Eureka */,
+				F272298A1FCF0288005A4973 /* ReactiveCocoa */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F27229771FCF0288005A4973 /* ReactiveRows */ = {
+			isa = PBXGroup;
+			children = (
+				F27229781FCF0288005A4973 /* ReactiveRows.swift */,
+			);
+			path = ReactiveRows;
+			sourceTree = "<group>";
+		};
+		F27229791FCF0288005A4973 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				F272297A1FCF0288005A4973 /* RowSelecting.swift */,
+				F272297B1FCF0288005A4973 /* BaseRow+Synchronizing.swift */,
+				F272297C1FCF0288005A4973 /* Form+Lifetime.swift */,
+				F272297D1FCF0288005A4973 /* BaseRow+Lifetime.swift */,
+				F272297E1FCF0288005A4973 /* BaseRow+ReactiveExtensionsProvider.swift */,
+				F272297F1FCF0288005A4973 /* BaseRow+BindingTarget.swift */,
+				F27229801FCF0288005A4973 /* BaseRow+Association.swift */,
+				F27229811FCF0288005A4973 /* RowType.swift */,
+				F27229821FCF0288005A4973 /* Form+BindingTarget.swift */,
+				F27229831FCF0288005A4973 /* RowChanging.swift */,
+				F27229841FCF0288005A4973 /* Form.swift */,
+				F27229851FCF0288005A4973 /* Form+Association.swift */,
+				F27229861FCF0288005A4973 /* Form+ReactiveExtensionsProvider.swift */,
+				F27229871FCF0288005A4973 /* Form+Synchronizing.swift */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		F272298A1FCF0288005A4973 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */,
+				F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */,
+				F272298D1FCF0288005A4973 /* ObjC+Selector.swift */,
+				F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */,
+				F272298F1FCF0288005A4973 /* ObjC+Messages.swift */,
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
 		F2DFC8501FAF3C9E00BB4491 = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +137,7 @@
 		F2DFC85C1FAF3C9E00BB4491 /* ReactiveEureka */ = {
 			isa = PBXGroup;
 			children = (
+				F27229761FCF0288005A4973 /* Classes */,
 				F2DFC8661FAF3CF400BB4491 /* Info.plist */,
 				F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */,
 			);
@@ -59,6 +151,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27229A51FCF0289005A4973 /* ObjCRuntimeAliases.h in Headers */,
 				F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +224,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27229971FCF0289005A4973 /* BaseRow+BindingTarget.swift in Sources */,
+				F27229941FCF0289005A4973 /* Form+Lifetime.swift in Sources */,
+				F272299A1FCF0289005A4973 /* Form+BindingTarget.swift in Sources */,
+				F27229A31FCF0289005A4973 /* NSObject+Synchronizing.swift in Sources */,
+				F27229A21FCF0289005A4973 /* ObjCRuntimeAliases.m in Sources */,
+				F272299E1FCF0289005A4973 /* Form+ReactiveExtensionsProvider.swift in Sources */,
+				F27229911FCF0289005A4973 /* ReactiveRows.swift in Sources */,
+				F27229921FCF0289005A4973 /* RowSelecting.swift in Sources */,
+				F272299D1FCF0289005A4973 /* Form+Association.swift in Sources */,
+				F272299C1FCF0289005A4973 /* Form.swift in Sources */,
+				F27229951FCF0289005A4973 /* BaseRow+Lifetime.swift in Sources */,
+				F272299F1FCF0289005A4973 /* Form+Synchronizing.swift in Sources */,
+				F27229991FCF0289005A4973 /* RowType.swift in Sources */,
+				F27229931FCF0289005A4973 /* BaseRow+Synchronizing.swift in Sources */,
+				F27229A61FCF0289005A4973 /* ObjC+Messages.swift in Sources */,
+				F27229A41FCF0289005A4973 /* ObjC+Selector.swift in Sources */,
+				F27229961FCF0289005A4973 /* BaseRow+ReactiveExtensionsProvider.swift in Sources */,
+				F27229981FCF0289005A4973 /* BaseRow+Association.swift in Sources */,
+				F272299B1FCF0289005A4973 /* RowChanging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
