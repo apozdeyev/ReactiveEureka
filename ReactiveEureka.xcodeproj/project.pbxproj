@@ -25,8 +25,12 @@
 		F27229A21FCF0289005A4973 /* ObjCRuntimeAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */; };
 		F27229A31FCF0289005A4973 /* NSObject+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */; };
 		F27229A41FCF0289005A4973 /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298D1FCF0288005A4973 /* ObjC+Selector.swift */; };
-		F27229A51FCF0289005A4973 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */; };
+		F27229A51FCF0289005A4973 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F27229A61FCF0289005A4973 /* ObjC+Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298F1FCF0288005A4973 /* ObjC+Messages.swift */; };
+		F27229AD1FCF1949005A4973 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229A91FCF1949005A4973 /* ReactiveSwift.framework */; };
+		F27229AE1FCF1949005A4973 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229AA1FCF1949005A4973 /* Result.framework */; };
+		F27229AF1FCF1949005A4973 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229AB1FCF1949005A4973 /* ReactiveCocoa.framework */; };
+		F27229B01FCF1949005A4973 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229AC1FCF1949005A4973 /* Eureka.framework */; };
 		F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -51,6 +55,10 @@
 		F272298D1FCF0288005A4973 /* ObjC+Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Selector.swift"; sourceTree = "<group>"; };
 		F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCRuntimeAliases.h; sourceTree = "<group>"; };
 		F272298F1FCF0288005A4973 /* ObjC+Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Messages.swift"; sourceTree = "<group>"; };
+		F27229A91FCF1949005A4973 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		F27229AA1FCF1949005A4973 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		F27229AB1FCF1949005A4973 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		F27229AC1FCF1949005A4973 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
 		F2DFC85A1FAF3C9E00BB4491 /* ReactiveEureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveEureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveEureka.h; sourceTree = SOURCE_ROOT; };
 		F2DFC8661FAF3CF400BB4491 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -61,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27229AD1FCF1949005A4973 /* ReactiveSwift.framework in Frameworks */,
+				F27229AE1FCF1949005A4973 /* Result.framework in Frameworks */,
+				F27229AF1FCF1949005A4973 /* ReactiveCocoa.framework in Frameworks */,
+				F27229B01FCF1949005A4973 /* Eureka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,11 +130,23 @@
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
+		F27229A81FCF1948005A4973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27229AC1FCF1949005A4973 /* Eureka.framework */,
+				F27229AB1FCF1949005A4973 /* ReactiveCocoa.framework */,
+				F27229A91FCF1949005A4973 /* ReactiveSwift.framework */,
+				F27229AA1FCF1949005A4973 /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2DFC8501FAF3C9E00BB4491 = {
 			isa = PBXGroup;
 			children = (
 				F2DFC85C1FAF3C9E00BB4491 /* ReactiveEureka */,
 				F2DFC85B1FAF3C9E00BB4491 /* Products */,
+				F27229A81FCF1948005A4973 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -372,12 +396,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/ReactiveEureka/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ReactiveEureka;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,12 +423,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/ReactiveEureka/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ReactiveEureka;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
