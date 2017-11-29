@@ -1,0 +1,4 @@
+github "ReactiveCocoa/ReactiveSwift"
+github "ReactiveCocoa/ReactiveCocoa"
+
+github "xmartlabs/Eureka"
