@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */; };
+		F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
