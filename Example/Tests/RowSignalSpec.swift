@@ -13,9 +13,7 @@ class RowSignalSpec: QuickSpec {
 	
     override func spec() {
 		beforeEach {
-			let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: TapsCountVC.self))
-			self.vc = storyboard.instantiateInitialViewController() as! TapsCountVC
-			self.vc.loadViewIfNeeded()
+			self.vc = TapsCountVC.load()
 		}
 		
 		describe("Row value signal") {

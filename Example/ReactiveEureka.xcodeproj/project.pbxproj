@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		A49D735A5E384B08A161E1CC /* Pods_ReactiveEureka_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB14A41BC316D68AECBA78A /* Pods_ReactiveEureka_Tests.framework */; };
 		C6FDA7E9B4EBEC5C7811A154 /* Pods_ReactiveEureka_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBB6899762AFF0121455F8F /* Pods_ReactiveEureka_Example.framework */; };
+		F23B1479208A4532008027E0 /* TapsCountVCLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23B1478208A4532008027E0 /* TapsCountVCLoader.swift */; };
 		F28894771F4FE27800E6A3EB /* RowActionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28894731F4FDBB300E6A3EB /* RowActionsSpec.swift */; };
 		F28894781F4FE27D00E6A3EB /* RowSignalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28894741F4FDBB300E6A3EB /* RowSignalSpec.swift */; };
 		F28894791F4FE28100E6A3EB /* RowBindingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28894711F4FDB8700E6A3EB /* RowBindingSpec.swift */; };
@@ -48,6 +49,7 @@
 		9002B685D4C2BBFCDF714467 /* ReactiveEureka.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReactiveEureka.podspec; path = ../ReactiveEureka.podspec; sourceTree = "<group>"; };
 		BD9498BF8B9B1BE82B1A619A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E7E332066E273E3C5D3F09B8 /* Pods-ReactiveEureka_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveEureka_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveEureka_Tests/Pods-ReactiveEureka_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F23B1478208A4532008027E0 /* TapsCountVCLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapsCountVCLoader.swift; sourceTree = "<group>"; };
 		F28894691F4F332500E6A3EB /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/Eureka/Eureka.framework"; sourceTree = "<group>"; };
 		F288946A1F4F332500E6A3EB /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
 		F288946B1F4F332500E6A3EB /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "../../../../XcodeDerivedData/ReactiveEureka-ggdnhozmiumxgnbafiryvxtjshoo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				F28894741F4FDBB300E6A3EB /* RowSignalSpec.swift */,
 				F28894711F4FDB8700E6A3EB /* RowBindingSpec.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				F23B1478208A4532008027E0 /* TapsCountVCLoader.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -419,6 +423,7 @@
 				F28894771F4FE27800E6A3EB /* RowActionsSpec.swift in Sources */,
 				F28894791F4FE28100E6A3EB /* RowBindingSpec.swift in Sources */,
 				F28894781F4FE27D00E6A3EB /* RowSignalSpec.swift in Sources */,
+				F23B1479208A4532008027E0 /* TapsCountVCLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

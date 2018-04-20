@@ -40,7 +40,7 @@ Reactive extension for xmartlabs/Eureka.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency "ReactiveCocoa", "~> 6"
+  s.dependency "ReactiveCocoa", "~> 7"
   s.dependency "Eureka", "~> 4"
 
 end
