@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ReactiveEureka'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Reactive extension for xmartlabs/Eureka.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Reactive extension for xmartlabs/Eureka.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency "ReactiveCocoa", "~> 6"
+  s.dependency "ReactiveCocoa", "~> 7"
   s.dependency "Eureka", "~> 4"
 
 end

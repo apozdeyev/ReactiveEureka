@@ -22,14 +22,14 @@ public protocol RowChanging: BaseRowType {
 
 extension Reactive where Base: RowChanging {
 	public var values: Signal<Base.Cell.Value?, NoError> {
-		return Signal { observer in
+		return Signal { (observer, signalLifetime) in
 			base.onChange({ row in
 				observer.send(value: row.value)
 			})
 
 			let disposable = lifetime.ended.observeCompleted(observer.sendCompleted)
-
-			return AnyDisposable {
+			
+			signalLifetime.observeEnded { 
 				disposable?.dispose()
 			}
 		}
