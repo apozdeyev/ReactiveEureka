@@ -1,0 +1,7 @@
+framework module ReactiveEureka {
+	umbrella header "ReactiveEureka.h"
+	private header "ObjCRuntimeAliases.h"
+
+	export *
+	module * { export * }
+}

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TapsCountVC.swift
 //  ReactiveEureka
 //
 //  Created by anatoliy.pozdeyev@gmail.com on 08/18/2017.
@@ -13,7 +13,7 @@ import Eureka
 import ReactiveEureka
 import Result
 
-class ViewController: FormViewController {
+class TapsCountVC: FormViewController {
 	struct RowTag {
 		static let TapsCount = "TapsCount"
 		static let LastTap = "LastTap"

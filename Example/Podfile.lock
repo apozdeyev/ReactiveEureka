@@ -1,49 +1,54 @@
 PODS:
-  - Eureka (3.1.0)
+  - Eureka (4.1.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Nimble (5.1.1)
-  - Nimble-Snapshots (4.4.0):
-    - Nimble-Snapshots/Core (= 4.4.0)
-  - Nimble-Snapshots/Core (4.4.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble
-    - Quick
-  - Quick (1.0.0)
-  - ReactiveCocoa (6.0.1):
-    - ReactiveSwift (~> 2.0)
-  - ReactiveEureka (0.1.0):
-    - Eureka (~> 3)
-    - ReactiveCocoa (~> 6)
-  - ReactiveSwift (2.0.1):
+  - iOSSnapshotTestCase (3.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 3.0.0)
+  - iOSSnapshotTestCase/Core (3.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (3.0.0):
+    - iOSSnapshotTestCase/Core
+  - Nimble (7.1.1)
+  - Nimble-Snapshots (6.6.0):
+    - Nimble-Snapshots/Core (= 6.6.0)
+  - Nimble-Snapshots/Core (6.6.0):
+    - iOSSnapshotTestCase (~> 3.0)
+    - Nimble (~> 7.0)
+  - Quick (1.2.0)
+  - ReactiveCocoa (7.2.0):
+    - ReactiveSwift (~> 3.1)
+  - ReactiveEureka (0.1.2):
+    - Eureka (~> 4)
+    - ReactiveCocoa (~> 7)
+  - ReactiveSwift (3.1.0):
     - Result (~> 3.2)
-  - Result (3.2.3)
+  - Result (3.2.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - Nimble (~> 5.1.1)
+  - Nimble (~> 7)
   - Nimble-Snapshots
-  - Quick (~> 1.0.0)
+  - Quick (~> 1)
   - ReactiveEureka (from `../`)
 
 EXTERNAL SOURCES:
   ReactiveEureka:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  Eureka: d6725c38d0dcdceaa331d1468f75e76315715ae0
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
-  Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
-  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  ReactiveCocoa: cf6595131c832c468fe3f84a2d7f74ed68eb3058
-  ReactiveEureka: 81a2dd12cba8aa763392ad7817259664cbb25e13
-  ReactiveSwift: 60a29ff35988a964fd2bb759755cb6594de523fc
-  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  iOSSnapshotTestCase: 23984ffe05289728d646cbb6a7a10b4fb1c93440
+  Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
+  Nimble-Snapshots: 33e94958e964dd5751dd387bc3204e43fe7b5d7b
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  ReactiveCocoa: 476dae7ca790f40d30d186a1bd7ebae4290395d5
+  ReactiveEureka: 98be35f43fba5d5cce0284134ee127d37164c4cc
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
 
-PODFILE CHECKSUM: b5f5271dac72e57be57202c0b3c1f25780a2f96e
+PODFILE CHECKSUM: f49de7a4e3e6e14a55814f49bc43ab4560734b11
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

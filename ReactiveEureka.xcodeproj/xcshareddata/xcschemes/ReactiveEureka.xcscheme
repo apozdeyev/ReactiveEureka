@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "ReactiveEureka_Example.app"
-               BlueprintName = "ReactiveEureka_Example"
-               ReferencedContainer = "container:ReactiveEureka.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ReactiveEureka_Tests.xctest"
-               BlueprintName = "ReactiveEureka_Tests"
+               BlueprintIdentifier = "F2DFC8591FAF3C9E00BB4491"
+               BuildableName = "ReactiveEureka.framework"
+               BlueprintName = "ReactiveEureka"
                ReferencedContainer = "container:ReactiveEureka.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ReactiveEureka_Tests.xctest"
-               BlueprintName = "ReactiveEureka_Tests"
-               ReferencedContainer = "container:ReactiveEureka.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ReactiveEureka_Example.app"
-            BlueprintName = "ReactiveEureka_Example"
-            ReferencedContainer = "container:ReactiveEureka.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -77,16 +44,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ReactiveEureka_Example.app"
-            BlueprintName = "ReactiveEureka_Example"
+            BlueprintIdentifier = "F2DFC8591FAF3C9E00BB4491"
+            BuildableName = "ReactiveEureka.framework"
+            BlueprintName = "ReactiveEureka"
             ReferencedContainer = "container:ReactiveEureka.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -96,16 +62,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ReactiveEureka_Example.app"
-            BlueprintName = "ReactiveEureka_Example"
+            BlueprintIdentifier = "F2DFC8591FAF3C9E00BB4491"
+            BuildableName = "ReactiveEureka.framework"
+            BlueprintName = "ReactiveEureka"
             ReferencedContainer = "container:ReactiveEureka.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -9,18 +9,16 @@ import Result
 @testable import ReactiveEureka_Example
 
 class RowActionsSpec: QuickSpec {
-	var vc: ViewController!
+	var vc: TapsCountVC!
 	
     override func spec() {
 		beforeEach {
-			let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: ViewController.self))
-			self.vc = storyboard.instantiateInitialViewController() as! ViewController
-			self.vc.loadViewIfNeeded()
+			self.vc = TapsCountVC.load()
 		}
 		
 		describe("Row actions") {
 			it("Row is disabled for time when the cell is just selected and action routine is performed") {
-				let buttonRow = self.vc.form.rowBy(tag: ViewController.RowTag.Button) as! ButtonRow
+				let buttonRow = self.vc.form.rowBy(tag: TapsCountVC.RowTag.Button) as! ButtonRow
 				let action = Action<Void, Void, NoError> {
 					return SignalProducer<Void, NoError>( {
 						expect(buttonRow.isDisabled) == true

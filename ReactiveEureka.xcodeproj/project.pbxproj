@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F27229911FCF0289005A4973 /* ReactiveRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229781FCF0288005A4973 /* ReactiveRows.swift */; };
+		F27229921FCF0289005A4973 /* RowSelecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297A1FCF0288005A4973 /* RowSelecting.swift */; };
+		F27229931FCF0289005A4973 /* BaseRow+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297B1FCF0288005A4973 /* BaseRow+Synchronizing.swift */; };
+		F27229941FCF0289005A4973 /* Form+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297C1FCF0288005A4973 /* Form+Lifetime.swift */; };
+		F27229951FCF0289005A4973 /* BaseRow+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297D1FCF0288005A4973 /* BaseRow+Lifetime.swift */; };
+		F27229961FCF0289005A4973 /* BaseRow+ReactiveExtensionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297E1FCF0288005A4973 /* BaseRow+ReactiveExtensionsProvider.swift */; };
+		F27229971FCF0289005A4973 /* BaseRow+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272297F1FCF0288005A4973 /* BaseRow+BindingTarget.swift */; };
+		F27229981FCF0289005A4973 /* BaseRow+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229801FCF0288005A4973 /* BaseRow+Association.swift */; };
+		F27229991FCF0289005A4973 /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229811FCF0288005A4973 /* RowType.swift */; };
+		F272299A1FCF0289005A4973 /* Form+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229821FCF0288005A4973 /* Form+BindingTarget.swift */; };
+		F272299B1FCF0289005A4973 /* RowChanging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229831FCF0288005A4973 /* RowChanging.swift */; };
+		F272299C1FCF0289005A4973 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229841FCF0288005A4973 /* Form.swift */; };
+		F272299D1FCF0289005A4973 /* Form+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229851FCF0288005A4973 /* Form+Association.swift */; };
+		F272299E1FCF0289005A4973 /* Form+ReactiveExtensionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229861FCF0288005A4973 /* Form+ReactiveExtensionsProvider.swift */; };
+		F272299F1FCF0289005A4973 /* Form+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27229871FCF0288005A4973 /* Form+Synchronizing.swift */; };
+		F27229A21FCF0289005A4973 /* ObjCRuntimeAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */; };
+		F27229A31FCF0289005A4973 /* NSObject+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */; };
+		F27229A41FCF0289005A4973 /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298D1FCF0288005A4973 /* ObjC+Selector.swift */; };
+		F27229A51FCF0289005A4973 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F27229A61FCF0289005A4973 /* ObjC+Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272298F1FCF0288005A4973 /* ObjC+Messages.swift */; };
+		F27229AD1FCF1949005A4973 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229A91FCF1949005A4973 /* ReactiveSwift.framework */; };
+		F27229AE1FCF1949005A4973 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229AA1FCF1949005A4973 /* Result.framework */; };
+		F27229AF1FCF1949005A4973 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229AB1FCF1949005A4973 /* ReactiveCocoa.framework */; };
+		F27229B01FCF1949005A4973 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27229AC1FCF1949005A4973 /* Eureka.framework */; };
+		F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F27229781FCF0288005A4973 /* ReactiveRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveRows.swift; sourceTree = "<group>"; };
+		F272297A1FCF0288005A4973 /* RowSelecting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSelecting.swift; sourceTree = "<group>"; };
+		F272297B1FCF0288005A4973 /* BaseRow+Synchronizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+Synchronizing.swift"; sourceTree = "<group>"; };
+		F272297C1FCF0288005A4973 /* Form+Lifetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+Lifetime.swift"; sourceTree = "<group>"; };
+		F272297D1FCF0288005A4973 /* BaseRow+Lifetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+Lifetime.swift"; sourceTree = "<group>"; };
+		F272297E1FCF0288005A4973 /* BaseRow+ReactiveExtensionsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+ReactiveExtensionsProvider.swift"; sourceTree = "<group>"; };
+		F272297F1FCF0288005A4973 /* BaseRow+BindingTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+BindingTarget.swift"; sourceTree = "<group>"; };
+		F27229801FCF0288005A4973 /* BaseRow+Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseRow+Association.swift"; sourceTree = "<group>"; };
+		F27229811FCF0288005A4973 /* RowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowType.swift; sourceTree = "<group>"; };
+		F27229821FCF0288005A4973 /* Form+BindingTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+BindingTarget.swift"; sourceTree = "<group>"; };
+		F27229831FCF0288005A4973 /* RowChanging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowChanging.swift; sourceTree = "<group>"; };
+		F27229841FCF0288005A4973 /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		F27229851FCF0288005A4973 /* Form+Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+Association.swift"; sourceTree = "<group>"; };
+		F27229861FCF0288005A4973 /* Form+ReactiveExtensionsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+ReactiveExtensionsProvider.swift"; sourceTree = "<group>"; };
+		F27229871FCF0288005A4973 /* Form+Synchronizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Form+Synchronizing.swift"; sourceTree = "<group>"; };
+		F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCRuntimeAliases.m; sourceTree = "<group>"; };
+		F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Synchronizing.swift"; sourceTree = "<group>"; };
+		F272298D1FCF0288005A4973 /* ObjC+Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Selector.swift"; sourceTree = "<group>"; };
+		F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCRuntimeAliases.h; sourceTree = "<group>"; };
+		F272298F1FCF0288005A4973 /* ObjC+Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Messages.swift"; sourceTree = "<group>"; };
+		F27229A91FCF1949005A4973 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		F27229AA1FCF1949005A4973 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		F27229AB1FCF1949005A4973 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		F27229AC1FCF1949005A4973 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
+		F2DFC85A1FAF3C9E00BB4491 /* ReactiveEureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveEureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveEureka.h; sourceTree = SOURCE_ROOT; };
+		F2DFC8661FAF3CF400BB4491 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2DFC8561FAF3C9E00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27229AD1FCF1949005A4973 /* ReactiveSwift.framework in Frameworks */,
+				F27229AE1FCF1949005A4973 /* Result.framework in Frameworks */,
+				F27229AF1FCF1949005A4973 /* ReactiveCocoa.framework in Frameworks */,
+				F27229B01FCF1949005A4973 /* Eureka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F27229761FCF0288005A4973 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F27229771FCF0288005A4973 /* ReactiveRows */,
+				F27229791FCF0288005A4973 /* Eureka */,
+				F272298A1FCF0288005A4973 /* ReactiveCocoa */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F27229771FCF0288005A4973 /* ReactiveRows */ = {
+			isa = PBXGroup;
+			children = (
+				F27229781FCF0288005A4973 /* ReactiveRows.swift */,
+			);
+			path = ReactiveRows;
+			sourceTree = "<group>";
+		};
+		F27229791FCF0288005A4973 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				F272297A1FCF0288005A4973 /* RowSelecting.swift */,
+				F272297B1FCF0288005A4973 /* BaseRow+Synchronizing.swift */,
+				F272297C1FCF0288005A4973 /* Form+Lifetime.swift */,
+				F272297D1FCF0288005A4973 /* BaseRow+Lifetime.swift */,
+				F272297E1FCF0288005A4973 /* BaseRow+ReactiveExtensionsProvider.swift */,
+				F272297F1FCF0288005A4973 /* BaseRow+BindingTarget.swift */,
+				F27229801FCF0288005A4973 /* BaseRow+Association.swift */,
+				F27229811FCF0288005A4973 /* RowType.swift */,
+				F27229821FCF0288005A4973 /* Form+BindingTarget.swift */,
+				F27229831FCF0288005A4973 /* RowChanging.swift */,
+				F27229841FCF0288005A4973 /* Form.swift */,
+				F27229851FCF0288005A4973 /* Form+Association.swift */,
+				F27229861FCF0288005A4973 /* Form+ReactiveExtensionsProvider.swift */,
+				F27229871FCF0288005A4973 /* Form+Synchronizing.swift */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		F272298A1FCF0288005A4973 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F272298B1FCF0288005A4973 /* ObjCRuntimeAliases.m */,
+				F272298C1FCF0288005A4973 /* NSObject+Synchronizing.swift */,
+				F272298D1FCF0288005A4973 /* ObjC+Selector.swift */,
+				F272298E1FCF0288005A4973 /* ObjCRuntimeAliases.h */,
+				F272298F1FCF0288005A4973 /* ObjC+Messages.swift */,
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		F27229A81FCF1948005A4973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27229AC1FCF1949005A4973 /* Eureka.framework */,
+				F27229AB1FCF1949005A4973 /* ReactiveCocoa.framework */,
+				F27229A91FCF1949005A4973 /* ReactiveSwift.framework */,
+				F27229AA1FCF1949005A4973 /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2DFC8501FAF3C9E00BB4491 = {
+			isa = PBXGroup;
+			children = (
+				F2DFC85C1FAF3C9E00BB4491 /* ReactiveEureka */,
+				F2DFC85B1FAF3C9E00BB4491 /* Products */,
+				F27229A81FCF1948005A4973 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2DFC85B1FAF3C9E00BB4491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC85A1FAF3C9E00BB4491 /* ReactiveEureka.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2DFC85C1FAF3C9E00BB4491 /* ReactiveEureka */ = {
+			isa = PBXGroup;
+			children = (
+				F27229761FCF0288005A4973 /* Classes */,
+				F2DFC8661FAF3CF400BB4491 /* Info.plist */,
+				F2DFC8651FAF3CF300BB4491 /* ReactiveEureka.h */,
+			);
+			path = ReactiveEureka;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2DFC8571FAF3C9E00BB4491 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27229A51FCF0289005A4973 /* ObjCRuntimeAliases.h in Headers */,
+				F2DFC8671FAF3CF400BB4491 /* ReactiveEureka.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F2DFC8591FAF3C9E00BB4491 /* ReactiveEureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC8621FAF3C9E00BB4491 /* Build configuration list for PBXNativeTarget "ReactiveEureka" */;
+			buildPhases = (
+				F2DFC8551FAF3C9E00BB4491 /* Sources */,
+				F2DFC8561FAF3C9E00BB4491 /* Frameworks */,
+				F2DFC8571FAF3C9E00BB4491 /* Headers */,
+				F2DFC8581FAF3C9E00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveEureka;
+			productName = ReactiveEureka;
+			productReference = F2DFC85A1FAF3C9E00BB4491 /* ReactiveEureka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2DFC8511FAF3C9E00BB4491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = VitaSw;
+				TargetAttributes = {
+					F2DFC8591FAF3C9E00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2DFC8541FAF3C9E00BB4491 /* Build configuration list for PBXProject "ReactiveEureka" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2DFC8501FAF3C9E00BB4491;
+			productRefGroup = F2DFC85B1FAF3C9E00BB4491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DFC8591FAF3C9E00BB4491 /* ReactiveEureka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2DFC8581FAF3C9E00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DFC8551FAF3C9E00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27229971FCF0289005A4973 /* BaseRow+BindingTarget.swift in Sources */,
+				F27229941FCF0289005A4973 /* Form+Lifetime.swift in Sources */,
+				F272299A1FCF0289005A4973 /* Form+BindingTarget.swift in Sources */,
+				F27229A31FCF0289005A4973 /* NSObject+Synchronizing.swift in Sources */,
+				F27229A21FCF0289005A4973 /* ObjCRuntimeAliases.m in Sources */,
+				F272299E1FCF0289005A4973 /* Form+ReactiveExtensionsProvider.swift in Sources */,
+				F27229911FCF0289005A4973 /* ReactiveRows.swift in Sources */,
+				F27229921FCF0289005A4973 /* RowSelecting.swift in Sources */,
+				F272299D1FCF0289005A4973 /* Form+Association.swift in Sources */,
+				F272299C1FCF0289005A4973 /* Form.swift in Sources */,
+				F27229951FCF0289005A4973 /* BaseRow+Lifetime.swift in Sources */,
+				F272299F1FCF0289005A4973 /* Form+Synchronizing.swift in Sources */,
+				F27229991FCF0289005A4973 /* RowType.swift in Sources */,
+				F27229931FCF0289005A4973 /* BaseRow+Synchronizing.swift in Sources */,
+				F27229A61FCF0289005A4973 /* ObjC+Messages.swift in Sources */,
+				F27229A41FCF0289005A4973 /* ObjC+Selector.swift in Sources */,
+				F27229961FCF0289005A4973 /* BaseRow+ReactiveExtensionsProvider.swift in Sources */,
+				F27229981FCF0289005A4973 /* BaseRow+Association.swift in Sources */,
+				F272299B1FCF0289005A4973 /* RowChanging.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2DFC8601FAF3C9E00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2DFC8611FAF3C9E00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2DFC8631FAF3C9E00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/ReactiveEureka/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ReactiveEureka;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2DFC8641FAF3C9E00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/ReactiveEureka/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ReactiveEureka;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2DFC8541FAF3C9E00BB4491 /* Build configuration list for PBXProject "ReactiveEureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC8601FAF3C9E00BB4491 /* Debug */,
+				F2DFC8611FAF3C9E00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC8621FAF3C9E00BB4491 /* Build configuration list for PBXNativeTarget "ReactiveEureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC8631FAF3C9E00BB4491 /* Debug */,
+				F2DFC8641FAF3C9E00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2DFC8511FAF3C9E00BB4491 /* Project object */;
+}
